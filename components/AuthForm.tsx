@@ -52,11 +52,11 @@ const AuthForm = <T extends FieldValues>({
     const result = await onSubmit(data);
 
     if (result.success) {
-      toast.message("Success", {
-        description: isSignIn
+      toast.success(
+        isSignIn
           ? "You have successfully signed in"
-          : "You have successfully signed up",
-      });
+          : "You have successfully signed up"
+      );
 
       router.push("/");
     } else {
