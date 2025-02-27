@@ -8,6 +8,7 @@ type InitialData = {
 export const { POST } = serve<InitialData>(async (context) => {
   const { email } = context.requestPayload;
 
+  // Welcome Email
   await context.run("new-signup", async () => {
     await sendEmail("Welcome to the platform", email);
   });
@@ -34,8 +35,9 @@ export const { POST } = serve<InitialData>(async (context) => {
 });
 
 async function sendEmail(message: string, email: string) {
-  // Implement email sending logic here
-  console.log(`Sending ${message} email to ${email}`);
+  // FOR IMPROVEMENT: Use Resend tool to send email and configure using qstash
+  // NOTE: It needs a live domain to send emails
+  console.log(`Simulation only: Sending ${message} email to ${email}`);
 }
 
 type UserState = "non-active" | "active";
