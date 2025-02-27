@@ -13,6 +13,6 @@ Bookwise is a Library Management System for universities or colleges. It covers 
 - Imagekit
 - Upstash (Redis and QStash workflows)
 
-## Demo Account
+## Demo Site
 
-You can visit the [demo site](https://bookwise-tawny.vercel.app/) and try `admin@sample.com` and `1234` as password.
+You can visit the demo site [here](https://bookwise-tawny.vercel.app/)
