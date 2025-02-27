@@ -15,4 +15,4 @@ Bookwise is a Library Management System for universities or colleges. It covers 
 
 ## Demo Account
 
-You can try `admin@sample.com` and `1234` as password in the demo
+You can visit the [demo site](https://bookwise-tawny.vercel.app/) and try `admin@sample.com` and `1234` as password.
