@@ -12,6 +12,7 @@ Bookwise is a Library Management System for universities or colleges. It covers 
 - Drizzle
 - Imagekit
 - Upstash (Redis and QStash workflows)
+- Resend (for sending emails)
 
 ## Demo Site
 
